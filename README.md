@@ -2,6 +2,9 @@
 
 This project is a desktop application developed as a portfolio piece to demonstrate proficiency in **Java Desktop Development**. It focuses on the practical application of software engineering fundamentals, such as **3-layer architecture**, **DAO patterns**, and **OOP principles**.
 
+<img width="1920" height="1032" alt="preview" src="https://github.com/user-attachments/assets/2a48d62c-98e2-4c3d-9e8c-c5f4cb3cb589" />
+
+
 ## 🎯 Project Purpose
 The goal of this system is to manage a basic commercial workflow (Categories -> Products -> Sales/Purchases) while maintaining a clean, decoupled codebase that goes beyond basic scripting.
 
