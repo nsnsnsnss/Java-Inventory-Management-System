@@ -64,4 +64,4 @@ To ensure the code is organized and professional, I applied several engineering 
 >
 > 📄 Licencia
 
-Este proyecto se distribuye bajo la licencia MIT. Su propósito es estrictamente educativo y de investigación.
+ **Este proyecto se distribuye bajo la licencia MIT. Su propósito es estrictamente educativo y de investigación.
