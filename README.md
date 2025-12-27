@@ -62,6 +62,7 @@ To ensure the code is organized and professional, I applied several engineering 
 ---
 > **Note:** This project was developed as a final product for a Java Programming Course. It is intended for educational and portfolio demonstration purposes, highlighting the use of clean architecture and OOP.
 >
-> 📄 Licencia
 
- **Este proyecto se distribuye bajo la licencia MIT. Su propósito es estrictamente educativo y de investigación.
+## 📄 Licencia
+
+Este proyecto se distribuye bajo la licencia MIT. Su propósito es estrictamente educativo y de investigación.
