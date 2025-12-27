@@ -65,6 +65,6 @@ To ensure the code is organized and professional, I applied several engineering 
 
 ## 📄 Licencia
 
-Este proyecto se distribuye bajo la licencia MIT. Su propósito es estrictamente educativo y de investigación.
+This project is distributed under the MIT license. Its purpose is strictly educational and research-related.
 
-Autor: JUAN S.  Contacto: https://github.com/johnyse99
+Author: JUAN S.  Contact: https://github.com/johnyse99
